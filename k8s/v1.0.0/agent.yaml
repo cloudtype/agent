@@ -86,6 +86,7 @@ spec:
       containers:
         - name: agent
           image: cloudtype/agent:1
+          imagePullPolicy: Always
           resources:
             requests:
               cpu: 500m

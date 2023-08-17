@@ -28,7 +28,7 @@
 1. 다음 명령어를 사용해서 에이전트를 설치하세요.
 
 ```sh
-$ kubectl apply -f https://raw.githubusercontent.com/cloudtype/agent/master/k8s/agent.yaml
+$ kubectl apply -f https://raw.githubusercontent.com/cloudtype/agent/master/k8s/v1.0.0/agent.yaml
 ```
 
 2. 에이전트의 접속 주소를 확인합니다.
@@ -44,5 +44,4 @@ $ kubectl get secrets agent-secret -n cloudtype -o jsonpath='{.data.agent-token}
 ```
 
 설치 후 클라우드타입의 클러스터 설정 패널에서 도메인 및 레지스트리 정보를 설정하고 관리할 수 있습니다. 
-
 
